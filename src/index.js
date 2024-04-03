@@ -1,17 +1,31 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ReactDOM from 'react-dom';
+import Home from './components/Home';
+import ListaVerbos from './components/Lista_verbos';
+import Busca from './components/Busca';
+import VerboGrupo1 from './components/VerboGrupo1';
+import VerboGrupo2 from './components/VerboGrupo2';
+import VerboGrupo3 from './components/VerboGrupo3';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ 
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<Home />} /> 
+          <Route path="/home" element={<Home />} />
+          <Route path="/verbos" element={<ListaVerbos />} />
+          <Route path="/busca" element={<Busca />} />
+          <Route path="/verbosgrupo1" element={<VerboGrupo1 />} />
+          <Route path="/verbosgrupo2" element={<VerboGrupo2 />} />
+          <Route path="/verbosgrupo3" element={<VerboGrupo3 />} />
+          <Route path="/*" element={<h1>Not Found</h1>} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+ 
+ReactDOM.render(<App />, document.querySelector('#root'));
+ 
+export default App;

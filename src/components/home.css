@@ -1,0 +1,139 @@
+.corpo {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background-color: #FFF6F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+   
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+   
+  .main span{
+  margin-bottom: 20px;
+  }
+   
+  .main a{
+  color: #000000;
+  }
+
+  .saibaMais{
+    margin-bottom: 50px;
+  }
+
+  .titulo {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 40px;
+  }
+
+  .texto {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .opcoes {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .opcao4 {
+    background-color: #F29494;
+    text-align: center;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    padding-top: 90px;
+    margin: 20px;
+    border: solid 1.5px black;
+    border-radius: 10px;
+  }
+
+  .opcao5 {
+    background-color: #F2E6D8;
+    text-align: center;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    padding-top: 100px;
+    margin: 20px;
+    border: solid 1.5px black;
+    border-radius: 10px;
+  }
+
+  .containerVerbo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px;
+    background: #F2E6D8;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+  }
+
+  .containerVerbos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    padding: 50px;
+    background: #F2E6D8;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+  }
+
+  .tituloVerbo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .textoTraducao {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .textoVerbo {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .kanji {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .linha {
+    height: 1px; /* Altera a altura da linha para 2 pixels */
+    background-color: black;
+    
+  }
+  
+
+  .tituloopcao {
+    font-weight: bold;
+    font-size: 20px;
+  }
