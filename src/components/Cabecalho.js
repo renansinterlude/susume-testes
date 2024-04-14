@@ -32,9 +32,9 @@ const Cabecalho = (props) => {
                 <Link to="/home">
                     <span>HOME</span>
                 </Link>
-                <a href="jlpt.html">
+                <Link to="/jlpt">
                     <span>ESTUDE PELO JLPT</span>
-                </a>
+                </Link>
                 <a href="como-usar.html">
                     <span>COMO USAR</span>
                 </a>

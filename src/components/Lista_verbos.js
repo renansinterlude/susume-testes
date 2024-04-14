@@ -9,8 +9,8 @@ const ListaVerbos = () => {
         <div>
             <Cabecalho />
                 <div className="container">
-                    <main className="main">
-                        <p className='titulo'>Lista de Verbos</p>
+                    <div className="container-lista-verbos">
+                        <h1 className='titulo'>Lista de Verbos</h1>
 
                         <p className='texto'>Criamos listas com os verbos divididos pelos grupos em que fazem parte, clique para consultar os verbos de cada grupo. </p>
                         
@@ -21,31 +21,32 @@ const ListaVerbos = () => {
                         <p className='texto'>Grupo III</p>
                         <br></br>
                         <br></br>
-                        <div className="opcoes">
-                            
-                            <Link to="/verbosgrupo1">
-                            <div className="opcao1">
-                                <p className='tituloopcao'> GRUPO I </p>
+                        <div className="container-opcoes-verbos">
+                            <Link to="/verbosgrupo1" className="link-sem-sublinhado">
+                            <div className="opcoes-verbos grupo-1">
+                                <p className='texto-verbos-opcao'> GRUPO I </p>
                             </div>
                             </Link>
-
-                            <Link to="/verbosgrupo2">
-                            <div className="opcao2">
-                                <p className='tituloopcao'> GRUPO II </p>
+                            <Link to="/verbosgrupo2" className="link-sem-sublinhado">
+                            <div className="opcoes-verbos grupo-2">
+                                <p className='texto-verbos-opcao'> GRUPO II </p>
                             </div>
                             </Link>
-
-
-                            <Link to="/verbosgrupo3">
-                            <div className="opcao3">
-                                <p className='tituloopcao'> GRUPO III </p>
+                            <Link to="/verbosgrupo3" className="link-sem-sublinhado">
+                            <div className="opcoes-verbos grupo-3">
+                                <p className='texto-verbos-opcao'> GRUPO III </p>
                             </div>
                             </Link>
-
                         </div>
 
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
 
-                    </main>
+
+                    </div>
                 </div>
             <Rodape />
         </div>

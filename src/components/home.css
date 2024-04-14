@@ -1,83 +1,94 @@
-.corpo {
-    width: 100%;
-    height: 100%;
-    padding: 50px;
-    background-color: #FFF6F5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-  }
-   
-  .main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  .container-home {
     width: 50%;
-  }
-
-   
-  .main span{
-  margin-bottom: 20px;
+    justify-content: center;
   }
    
-  .main a{
-  color: #000000;
-  }
-
-  .saibaMais{
-    margin-bottom: 50px;
-  }
-
   .titulo {
-    font-size: 40px;
-    font-weight: 600;
-    margin: 40px;
+    font-family: 'Roboto-flex', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 50px;
+    margin-bottom: 30px;
   }
 
   .texto {
-    font-size: 18px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
     text-align: center;
   }
 
-  .opcoes {
+  .container-opcoes-home {
+    width: 100%;
     display: flex;
-    align-items: center;
-    margin-bottom: 50px;
+    justify-content: space-evenly;
   }
 
-  .opcao4 {
+  .opcoes-home {
+    width: 180px;
+    height: 230px;
+    border-radius: 15px;
+    align-content: center;
+    border: 1px solid black;
+  }
+
+  .opcao-jlpt {
+    background-color: #EC4C54;
+  }
+
+  .opcao-verbo {
     background-color: #F29494;
-    text-align: center;
-    display: inline-block;
-    height: 250px;
-    width: 200px;
-    padding-top: 90px;
-    margin: 20px;
-    border: solid 1.5px black;
-    border-radius: 10px;
   }
 
-  .opcao5 {
+  .texto-home-opcao {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .saiba-mais-home {
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    
+  }
+
+  .container-lista-verbos {
+    width: 50%;
+    justify-content: center;
+  }
+
+  .container-opcoes-verbos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .opcoes-verbos {
+    width: 180px;
+    height: 230px;
+    border-radius: 15px;
+    align-content: center;
+    border: 1px solid black;
+  }
+
+  .grupo-1 {
+    background-color: #F29494;
+  }
+
+  .grupo-2 {
     background-color: #F2E6D8;
-    text-align: center;
-    display: inline-block;
-    height: 250px;
-    width: 200px;
-    padding-top: 100px;
-    margin: 20px;
-    border: solid 1.5px black;
-    border-radius: 10px;
   }
 
+  .grupo-3 {
+    background-color: #EC4C54;
+  }
+
+
+  /* tela de busca */
   .containerVerbo {
     display: flex;
     justify-content: center;
@@ -131,9 +142,13 @@
     background-color: black;
     
   }
-  
 
   .tituloopcao {
     font-weight: bold;
     font-size: 20px;
   }
+
+  .link-sem-sublinhado {
+    color: black;
+    text-decoration: none;
+}
